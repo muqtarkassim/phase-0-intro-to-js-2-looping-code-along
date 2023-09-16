@@ -1,5 +1,5 @@
 // Code your solutions in this file
-name=["Guadalupe","Ollie","Aki"];
+const names=["Guadalupe","Ollie","Aki"];
 function writeCards(names) {
     const thankYouMessages = [];
     for (let i = 0; i < names.length; i++) {
@@ -8,10 +8,9 @@ function writeCards(names) {
     return thankYouMessages;
 }
 
-const names = ["Guadalupe", "Ollie", "Aki"];
-const messages = writeCards(names);
-console.log(messages);
-writeCards()
+
+
+writeCards(names)
 
 function countDown(number){
     for(let i=number;i>=0;i--){
